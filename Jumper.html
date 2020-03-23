@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>THE JUMPER - A 2 KB 3D racing game in JavaScript</title>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<body style='margin:0;overflow:hidden'>
+<canvas id=c>
+<script type="text/javascript" src="jumper.js"></script>
+<script type="text/javascript">
+    window.alert("Single Click: Break\nDouble Click: Jump\nMove your Mouse to Steer\nEnjoy the Game!!!");
+</script>
+</body>
+</html>
